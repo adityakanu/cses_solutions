@@ -2,11 +2,11 @@
 #define ll long long int
 using namespace std;
 
-int ifEven(int a){
+ll ifEven(ll a){
     return (a/2);
 }
 
-int ifOdd(int a){
+ll ifOdd(ll a){
     return ((a*3)+1);
 }
 
@@ -18,10 +18,10 @@ int main()
     cout.tie(NULL);
 
 
-    int n;
+    ll n;
     cin >> n;
 
-    vector <int> ans;
+    vector <ll> ans;
     ans.push_back(n);
 
     while (n!=1){
